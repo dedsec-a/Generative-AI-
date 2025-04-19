@@ -2,3 +2,6 @@ langchain
 langchain_community
 python-dotenv
 langchain_text_splitters
+langchain_huggingface
+sentence_transformers
+chromadb

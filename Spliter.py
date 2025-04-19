@@ -25,6 +25,4 @@ class Splitter:
         print("Split result:", final_docs)  # Debugging output
         return final_docs
 
-if __name__ == "__main__":
-    split = Splitter("speech.txt", 500, 50)
-    split.split_doc()
+
