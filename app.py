@@ -9,6 +9,8 @@ import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 # Setting up the Environment 
+
+
 load_dotenv()
 os.environ['hugging_face_apiKey'] = os.getenv('hugging_face_apiKey')
 os.environ["OLLAMA_FORCE_CPU"] = "true"
