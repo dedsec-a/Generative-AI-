@@ -24,9 +24,9 @@ db
 
 query = "how do we cultivate perseverance in our own lives"
 
-docs = db.similarity_search(query=query)
+docs = db.similarity_search_with_score(query=query)
 
-print(docs[0].page_content)
+print(docs)
 
 
 
