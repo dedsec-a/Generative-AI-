@@ -8,3 +8,4 @@ chromadb
 faiss-cpu
 langchain-openai
 langchain_ollama
+langchain_groq
