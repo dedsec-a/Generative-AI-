@@ -7,3 +7,4 @@ sentence_transformers
 chromadb
 faiss-cpu
 langchain-openai
+langchain_ollama
