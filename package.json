@@ -1,0 +1,24 @@
+{
+  "name": "generative-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedsec-a/Generative-AI-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dedsec-a/Generative-AI-/issues"
+  },
+  "homepage": "https://github.com/dedsec-a/Generative-AI-#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.5"
+  }
+}

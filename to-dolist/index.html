@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="https://via.placeholder.com/50" alt="User" class="avatar" />
+        <div class="username">Hamza mameri</div>
+      </div>
+      <nav class="menu">
+        <h3>Today tasks</h3>
+        <ul>
+          <li><span class="dot pink"></span>Pe</li>
+          <li><span class="dot blue"></span> Freelance</li>
+          <li><span class="dot yellow"></span> Work</li>
+          <li class="dim">+ Add filter</li>
+        </ul>
+        <h3>Scheduled tasks</h3>
+        <h3>Settings</h3>
+      </nav>
+    </aside>
+
+    <!-- Main Section -->
+    <main class="main-content">
+      <h2 class="focus-heading">Today main focus</h2>
+      <h1 class="main-focus">Design team meeting</h1>
+      <div class="task-input">
+        <input type="text" placeholder="What is your next task?" class="input" id="input" />
+        <button class="add-task" id="add-task">Add Task</button>
+      </div>
+
+      <!-- Task List -->
+      <div class="task-list" id="task-list">
+        <div class="task"><span class=""></span> Work out <span class="time">8:00 am</span></div>
+        <div class="task"><span class=""></span> Design team meeting <span class="done">2:30 pm</span></div>
+        <div class="task"><span class=""></span> Hand off the project <span class="done">7:00 pm</span></div>
+        <div class="task"><span class=""></span> Read 5 pages of "sprint" <span class="done">10:30 pm</span></div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
